@@ -597,7 +597,7 @@ body.rtl .elementor-5153 .elementor-element.elementor-element-7817687a {
 .elementor-5153 .elementor-element.elementor-element-73300bd .history-info p {
   font-size: 16px;
   font-weight: 400;
-  color: #7a7a7a;
+  color: black;
 }
 .elementor-5153 .elementor-element.elementor-element-73300bd .naeep-link-wrap {
   padding: 10px 10px 10px 10px;
@@ -606,12 +606,13 @@ body.rtl .elementor-5153 .elementor-element.elementor-element-7817687a {
   color: #ffffff;
 }
 .elementor-5153 .elementor-element.elementor-element-73300bd .naeep-link:hover {
-  color: #eabf86;
+  color: #9c8b8b;
+  /* color: black; */
 }
 .elementor-5153
   .elementor-element.elementor-element-73300bd
   .naeep-link:before {
-  background-color: #eabf86;
+  background-color: #9c8b8b;
 }
 .elementor-5153
   .elementor-element.elementor-element-dd72bc6
@@ -634,7 +635,7 @@ body.rtl .elementor-5153 .elementor-element.elementor-element-7817687a {
 .elementor-5153
   .elementor-element.elementor-element-31dbd1c
   .elementor-countdown-item {
-  background-color: #ffb000;
+  background-color: #9c8b8b;
   border-radius: 9px 9px 9px 9px;
 }
 body:not(.rtl)
@@ -1003,5 +1004,16 @@ body.rtl
 .elementor-4960 .elementor-element.elementor-element-3814f48 .naeep-link {
   color: #ffffff;
   background-color: #ffb000;
+
   padding: 10px;
+}
+
+.elementor-5153 {
+  .elementor-element-cb33352 {
+    background-color: #9c8b8b;
+    padding: 2rem;
+  }
+  .elementor-element-da36401 {
+    background-image: url("./floral.jpg");
+  }
 }
