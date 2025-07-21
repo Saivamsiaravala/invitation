@@ -289,8 +289,8 @@
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   background-color: #ffffff;
-  /* background-image: url("./minimalbg.png"); */
-  background-size: cover;
+  background-image: url("./minimalbg.png");
+  background-size: contain;
 }
 .elementor-5153
   .elementor-element.elementor-element-43f1b10
@@ -640,6 +640,7 @@ body.rtl .elementor-5153 .elementor-element.elementor-element-7817687a {
   .elementor-element.elementor-element-31dbd1c
   .elementor-countdown-wrapper {
   max-width: 60%;
+  padding-bottom: 2rem;
 }
 .elementor-5153
   .elementor-element.elementor-element-31dbd1c
