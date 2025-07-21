@@ -289,6 +289,8 @@
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   background-color: #ffffff;
+  background-image: url("./minimalbg.png");
+  background-size: cover;
 }
 .elementor-5153
   .elementor-element.elementor-element-43f1b10
@@ -305,10 +307,6 @@
 .elementor-5153
   .elementor-element.elementor-element-43f1b10
   > .elementor-element-populated {
-  border-style: solid;
-  border-width: 5px 5px 5px 5px;
-  border-width: 12px 12px 12px 12px;
-
   border-color: #9c8b8b;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   padding: 50px 50px 50px 50px;
