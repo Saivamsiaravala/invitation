@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 .elementor-5153
   .elementor-element.elementor-element-60d2615b:not(
     .elementor-motion-effects-element-type-background
@@ -385,7 +387,7 @@ body.rtl .elementor-5153 .elementor-element.elementor-element-17c0ec4a {
 }
 .elementor-5153 .elementor-element.elementor-element-7ae2cd64 {
   width: var(--container-widget-width, 108.492%);
-  /* max-width: 108.492%; */
+  max-width: 100%;
   --container-widget-width: 108.492%;
   --container-widget-flex-grow: 0;
   text-align: center;
@@ -435,7 +437,6 @@ body.rtl .elementor-5153 .elementor-element.elementor-element-17c0ec4a {
   .elementor-divider-separator {
   width: 80%;
   margin: 0 auto;
-  margin-center: 0;
 }
 .elementor-5153
   .elementor-element.elementor-element-49c7f00
@@ -454,7 +455,6 @@ body.rtl .elementor-5153 .elementor-element.elementor-element-17c0ec4a {
   .elementor-divider-separator {
   width: 80%;
   margin: 0 auto;
-  margin-center: 0;
 }
 .elementor-5153
   .elementor-element.elementor-element-11542ac5
@@ -1047,14 +1047,12 @@ body.rtl
 .elementor-5153 {
   .elementor-element-c35f3fc {
     font-weight: 900;
-    /* border: 2px solid black; */
   }
   .elementor-element-da36401 {
     background-image: url("./floral.jpg");
   }
 }
 
-@charset "utf-8";
 /*
   Events Addon for Elementor Basic Styling
   -----------------------------------
