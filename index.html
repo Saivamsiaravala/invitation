@@ -1671,6 +1671,7 @@ Happily ever after"
         </div>
         <div class="counter-container">
           <div id="counter">Loading visits...</div>
+          <div class="heart"><img src="./assets/heart.gif" alt="Heart" /></div>
         </div>
         <script>
           const binId = "6883499f7b4b8670d8a710eb ";
@@ -1701,7 +1702,7 @@ Happily ever after"
               // Step 3: Show it
               document.getElementById(
                 "counter"
-              ).textContent = `Total Views: ${current}💗`;
+              ).textContent = `Total Views: ${current}`;
             })
             .catch((err) => {
               console.error(err);
