@@ -1,5 +1,26 @@
 @charset "utf-8";
 
+.elementor-5153 {
+  .elementor-element-da36401 {
+    .counter-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      #counter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 2rem;
+        height: 5rem;
+        font-size: 22px;
+        width: 15rem;
+        font-family: "EB Garamond", Sans-serif;
+        border-radius: 9px 9px 9px 9px;
+      }
+    }
+  }
+}
 .elementor-5153
   .elementor-element.elementor-element-60d2615b:not(
     .elementor-motion-effects-element-type-background

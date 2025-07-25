@@ -1271,6 +1271,7 @@ Happily ever after"
           </div>
         </div>
       </section>
+
       <section
         class="elementor-section elementor-top-section elementor-element elementor-element-7bda945b elementor-section-height-full elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
         data-id="7bda945b"
@@ -1668,6 +1669,46 @@ Happily ever after"
             </div>
           </div>
         </div>
+        <div class="counter-container">
+          <div id="counter">Loading visits...</div>
+        </div>
+        <script>
+          const binId = "6883499f7b4b8670d8a710eb ";
+          const apiKey =
+            "$2a$10$st05K4Hidr2gR5IZV1gUB.s/6J0VnyUxa/g5e.Ob2Eyii6jWncCkC";
+          const url = `https://api.jsonbin.io/v3/b/${binId}`;
+
+          // Step 1: Get current count
+          fetch(url, {
+            headers: {
+              "X-Master-Key": apiKey,
+            },
+          })
+            .then((res) => res.json())
+            .then((data) => {
+              const current = data.record.visits + 1;
+
+              // Step 2: Update count
+              fetch(url, {
+                method: "PUT",
+                headers: {
+                  "Content-Type": "application/json",
+                  "X-Master-Key": apiKey,
+                },
+                body: JSON.stringify({ visits: current }),
+              });
+
+              // Step 3: Show it
+              document.getElementById(
+                "counter"
+              ).textContent = `Total Views: ${current}💗`;
+            })
+            .catch((err) => {
+              console.error(err);
+              document.getElementById("counter").textContent =
+                "Visit count unavailable.";
+            });
+        </script>
       </section>
     </div>
     <script type="speculationrules">
